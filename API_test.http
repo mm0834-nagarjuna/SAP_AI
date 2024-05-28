@@ -1,0 +1,192 @@
+###
+GET https://insurance-unexpected-turtle-zt.cfapps.us10-001.hana.ondemand.com/ HTTP/1.1
+
+###
+
+POST https://insurance-unexpected-turtle-zt.cfapps.us10-001.hana.ondemand.com/getPrice HTTP/1.1
+Content-Type: application/json
+
+
+ [
+    {
+      "age": 52,
+      "sex": "male",
+      "bmi": 30.2,
+      "children": 1,
+      "smoker": "no",
+      "region": "southwest",
+      "charges": 9724
+    },
+    {
+      "age": 47,
+      "sex": "female",
+      "bmi": 29.37,
+      "children": 1,
+      "smoker": "no",
+      "region": "southeast",
+      "charges": 8547
+    },
+    {
+      "age": 48,
+      "sex": "male",
+      "bmi": 40.565,
+      "children": 2,
+      "smoker": "yes",
+      "region": "northwest",
+      "charges": 45702
+    },
+    {
+      "age": 61,
+      "sex": "male",
+      "bmi": 38.38,
+      "children": 0,
+      "smoker": "no",
+      "region": "northwest",
+      "charges": 12950
+    },
+    {
+      "age": 51,
+      "sex": "female",
+      "bmi": 18.05,
+      "children": 0,
+      "smoker": "no",
+      "region": "northwest",
+      "charges": 9644
+    },
+    {
+      "age": 34,
+      "sex": "male",
+      "bmi": 21.375,
+      "children": 0,
+      "smoker": "no",
+      "region": "northeast",
+      "charges": 4500
+    },
+    {
+      "age": 18,
+      "sex": "female",
+      "bmi": 26.315,
+      "children": 0,
+      "smoker": "no",
+      "region": "northeast",
+      "charges": 2198
+    },
+    {
+      "age": 51,
+      "sex": "female",
+      "bmi": 36.385,
+      "children": 3,
+      "smoker": "no",
+      "region": "northwest",
+      "charges": 11436
+    },
+    {
+      "age": 38,
+      "sex": "female",
+      "bmi": 30.21,
+      "children": 3,
+      "smoker": "no",
+      "region": "northwest",
+      "charges": 7537
+    },
+    {
+      "age": 31,
+      "sex": "male",
+      "bmi": 31.065,
+      "children": 3,
+      "smoker": "no",
+      "region": "northwest",
+      "charges": 5425
+    },
+    {
+      "age": 34,
+      "sex": "female",
+      "bmi": 19,
+      "children": 3,
+      "smoker": "no",
+      "region": "northeast",
+      "charges": 6753
+    },
+    {
+      "age": 50,
+      "sex": "female",
+      "bmi": 26.22,
+      "children": 2,
+      "smoker": "no",
+      "region": "northwest",
+      "charges": 10493
+    },
+    {
+      "age": 43,
+      "sex": "female",
+      "bmi": 29.9,
+      "children": 1,
+      "smoker": "no",
+      "region": "southwest",
+      "charges": 7337
+    },
+    {
+      "age": 33,
+      "sex": "female",
+      "bmi": 24.31,
+      "children": 0,
+      "smoker": "no",
+      "region": "southeast",
+      "charges": 4185
+    },
+    {
+      "age": 27,
+      "sex": "male",
+      "bmi": 28.5,
+      "children": 0,
+      "smoker": "yes",
+      "region": "northwest",
+      "charges": 18310
+    },
+    {
+      "age": 50,
+      "sex": "female",
+      "bmi": 28.16,
+      "children": 3,
+      "smoker": "no",
+      "region": "southeast",
+      "charges": 10702
+    },
+    {
+      "age": 60,
+      "sex": "male",
+      "bmi": 24.32,
+      "children": 0,
+      "smoker": "no",
+      "region": "northwest",
+      "charges": 12523
+    },
+    {
+      "age": 26,
+      "sex": "male",
+      "bmi": 32.49,
+      "children": 1,
+      "smoker": "no",
+      "region": "northeast",
+      "charges": 3490
+    },
+    {
+      "age": 38,
+      "sex": "male",
+      "bmi": 29.26,
+      "children": 2,
+      "smoker": "no",
+      "region": "northwest",
+      "charges": 6457
+    },
+    {
+      "age": 20,
+      "sex": "male",
+      "bmi": 30.685,
+      "children": 0,
+      "smoker": "yes",
+      "region": "northeast",
+      "charges": 33475
+    }]
+
+# ##25,male,26.22,0,no,northeast,

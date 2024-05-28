@@ -1,0 +1,11 @@
+---
+applications:
+- name: myML
+  random-route: true
+  path: ./
+  memory: 128M
+  buildpacks: 
+  - python_buildpack
+  command: python dbconnection.py
+  services:
+  - AITest-db
